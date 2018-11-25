@@ -1,0 +1,24 @@
+{
+  "name": "pentium-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for pentium developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "AbnerLin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.1.6",
+    "@babel/template": "^7.1.2",
+    "@babel/types": "^7.1.6"
+  }
+}
