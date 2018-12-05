@@ -5,7 +5,6 @@ const type = require('@babel/types');
 const sourceTemplate = template(`
   class CLASS_NAME {
     constructor() {
-	this.i = 123
     }
   }
 `);
