@@ -19,6 +19,7 @@
   "dependencies": {
     "@babel/generator": "^7.1.6",
     "@babel/template": "^7.1.2",
-    "@babel/types": "^7.1.6"
+    "@babel/types": "^7.1.6",
+    "commander": "^2.19.0"
   }
 }

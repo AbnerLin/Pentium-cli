@@ -1,16 +1,8 @@
-const template = require('@babel/template').default;
-const generate = require('@babel/generator').default;
-const type = require('@babel/types');
+#!/usr/bin/env node
 
-const sourceTemplate = template(`
-  class CLASS_NAME {
-    constructor() {
-    }
-  }
-`);
+const program = require('commander');
 
-const ast = sourceTemplate({
-  CLASS_NAME: type.identifier('Region'),
-});
-
-console.log(generate(ast).code);
+program
+  .version('1.0.0')
+  .command('deploy', 'Deploy Router or FAAS-API')
+  .parse(process.argv);
